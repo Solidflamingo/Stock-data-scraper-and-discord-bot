@@ -14,7 +14,7 @@ Establishes a connection to specified Discord servers.
 Listens for specific commands or messages for triggering stock-related actions.
 
 ## Get Stock Data (Get stock data.py)
-# Purpose:
+### Purpose:
 To fetch the latest stock data. The data can be sourced from various stock market platforms or APIs.
 
 ### Usage:
