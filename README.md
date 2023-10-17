@@ -1,4 +1,5 @@
-# Stock Prediction & Discord Bot
+# Stock scraper discord bot and stock prediction model
+
 ## General Overview
 Welcome to my project! This repository contains three scripts that contain a basic yahoo finance stock scraper, a Discord bot that delivers desired stock prices, and a stock prediction model based on 5 years history of a single stock.
 
