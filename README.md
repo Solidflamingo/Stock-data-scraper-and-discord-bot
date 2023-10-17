@@ -3,7 +3,7 @@
 ## General Overview
 Welcome to my project! This repository contains three scripts that contain a basic yahoo finance stock scraper, a Discord bot that delivers desired stock prices, and a stock prediction model based on 5 years history of a single stock.
 
-Using the stock scraper, you can easily fetch 7 days of data and save it to your local/online sql database. You can then implement the discord bot on your private server (or server with freinds, as long as you have admin permissions) where you can use the command !price (stock) to fetch the last 3 days of price and percentage change. With the final script, you can focus on one single stock to analyse the last 5 years of data (as well as GDP data). Using a LTSM algorithm, the app will present to you a plot (after about 5 minutes depending on CPU) that plots its predictions for past stock prices against actual prices; as well as giving you a prediction of the stock price for the next 200 days (one trading year).
+Using the stock scraper, you can easily fetch 7 days of data and save it to your local/online sql database. You can then implement the discord bot on your private server (or server with freinds, as long as you have admin permissions) where you can use the command !price (stock) to fetch the last 3 days of price and percentage change. With the final script, you can focus on one single stock to analyse the last 5 years of data (as well as GDP data). Using a LSTM algorithm, the app will present to you a plot (after about 5 minutes depending on CPU) that plots its predictions for past stock prices against actual prices; as well as giving you a prediction of the stock price for the next 200 days (one trading year).
 
 Given the complexity of stock prices and the model trying to predict 200 days of future prices, this model is probably as accurate as randomly guessing the stock price at the moment. However, I will continue to refine this script with more feature engineering, hyperparameter experimentation, cross-validation and continual monitoring. 
 
@@ -20,6 +20,7 @@ I expect to update the prediction model script as I continue to study AI and mac
 * Yfinance
 * Git version control
 * mySQL
+* LSTM model
 
 
 ## 1. Get Stock Data (Get stock data.py)
