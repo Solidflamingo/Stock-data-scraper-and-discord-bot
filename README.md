@@ -2,11 +2,6 @@
 ## General Overview
 Welcome to my project! This repository contains three scripts that contain a basic yahoo finance stock scraper, a Discord bot that delivers desired stock prices, and a stock prediction model based on 5 years history of a single stock.
 
-## This project integrates the power of machine learning for stock prediction with the ubiquity of Discord, making predictions more accessible to a larger audience.
-  Stock Prediction Script: Utilizes historical stock data and employs advanced machine learning techniques to predict future stock prices.
-  Discord Notification Script: Allows users to receive stock predictions as notifications directly within Discord, offering convenience and immediacy.
-  Main Execution Script: Acts as the bridge between the prediction model and the Discord bot, orchestrating the flow of data and ensuring seamless operation.
-
 ## Technologies Used
 Python
 Pycharm
