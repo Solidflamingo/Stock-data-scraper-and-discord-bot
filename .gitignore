@@ -1,0 +1,6 @@
+# ignore the following files
+config.ini
+.env
+run.bat
+
+
